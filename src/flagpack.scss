@@ -1,0 +1,21 @@
+@import '_variables';
+
+.fp {
+	@include flag('16');
+	background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: (4 / 3) * 1em;
+  vertical-align: sub;
+  line-height: 1em;
+	&.is-medium { 	@include flag('24') }
+	&.is-large { 	@include flag('32') }
+}
+
+@each $country-code in $fp-iso {
+	.#{$country-code} { 
+		background-image: url('#{$fp-path}#{$country-code}.svg'); 
+	}
+}

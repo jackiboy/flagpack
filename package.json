@@ -1,0 +1,25 @@
+{
+  "name": "svg-flags",
+  "version": "0.1.0",
+  "description": "lightweight flags in svg format",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackiboy/flags.git"
+  },
+  "keywords": [
+    "flag",
+    "flags",
+    "svg",
+    "sass",
+    "web",
+    "lightweight",
+    "small"
+  ],
+  "devDependencies": {
+    "node-sass": "^4.10.0"
+  }
+}
