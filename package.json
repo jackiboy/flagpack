@@ -1,5 +1,5 @@
 {
-  "name": "svg-flags",
+  "name": "flagpack",
   "version": "0.1.0",
   "description": "lightweight flags in svg format",
   "main": "builder.js",
