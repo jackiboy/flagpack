@@ -2,12 +2,12 @@
   "name": "svg-flags",
   "version": "0.1.0",
   "description": "lightweight flags in svg format",
-  "main": "build.js",
+  "main": "builder.js",
   "author": "Jack Marsh",
   "license": "MIT",
   "homepage": "https://github.com/jackiboy/flagpack/",
   "scripts": {
-    "build": "node build.js"
+    "build": "node builder.js"
   },
   "repository": {
     "type": "git",
