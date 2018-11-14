@@ -14,8 +14,8 @@
 	&.is-large { 	@include flag('32') }
 }
 
-@each $country-code in $fp-iso {
-	.#{$country-code} { 
-		background-image: url('#{$fp-path}#{$country-code}.svg'); 
+@each $country in $fp-iso {
+	.#{$country} { 
+		background-image: url('#{$fp-path}#{$country}.svg'); 
 	}
 }
