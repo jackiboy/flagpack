@@ -11,7 +11,7 @@
   &:before {
     content: '\00a0';
   }
-  &.#{$fp-prefix}-med{
+  &.#{$fp-prefix}-md{
     width: (4 / 3) * ($fp-size * 1.5);
     line-height: $fp-size * 1.5;
   }
