@@ -1,6 +1,6 @@
 {
   "name": "flagpack",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "lightweight flags in svg format",
   "main": "builder.js",
   "author": "Jack Marsh",
