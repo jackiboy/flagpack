@@ -1,20 +1,28 @@
 @import '_variables';
 
 .fp {
-	@include flag('16');
-	background-size: contain;
-  background-position: 50%;
-  background-repeat: no-repeat;
   position: relative;
   display: inline-block;
-  width: (4 / 3) * 1em;
-  vertical-align: sub;
-  line-height: 1em;
-	&.is-medium { 	@include flag('24') }
-	&.is-large { 	@include flag('32') }
+  width: (4 / 3) * $fp-size;
+  line-height: $fp-size;
+  
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  &:before {
+    content: '\00a0';
+  }
+  &.fp-medium{
+    width: (4 / 3) * ($fp-size * 1.5);
+    line-height: $fp-size * 1.5;
+  }
+  &.fp-large{
+    width: (4 / 3) * ($fp-size * 2);
+    line-height: $fp-size * 2;
+  }
 }
 
-@each $country in $fp-iso {
+@each $country in $fp-countries {
 	.#{$country} { 
 		background-image: url('#{$fp-path}#{$country}.svg'); 
 	}
