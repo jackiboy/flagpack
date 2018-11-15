@@ -1,22 +1,21 @@
 @import '_variables';
 
-.fp {
+.#{$fp-prefix} {
   position: relative;
   display: inline-block;
   width: (4 / 3) * $fp-size;
   line-height: $fp-size;
-  
   background-size: contain;
   background-position: 50%;
   background-repeat: no-repeat;
   &:before {
     content: '\00a0';
   }
-  &.fp-medium{
+  &.#{$fp-prefix}-med{
     width: (4 / 3) * ($fp-size * 1.5);
     line-height: $fp-size * 1.5;
   }
-  &.fp-large{
+  &.#{$fp-prefix}-lg{
     width: (4 / 3) * ($fp-size * 2);
     line-height: $fp-size * 2;
   }
