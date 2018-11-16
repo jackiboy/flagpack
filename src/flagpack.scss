@@ -5,9 +5,9 @@
   display: inline-block;
   width: (4 / 3) * $fp-size;
   line-height: $fp-size;
-  background-size: contain;
-  background-position: 50%;
-  background-repeat: no-repeat;
+  background-size: container;
+  background-position: center;
+  background-size: auto 98.99%;
   &:before {
     content: '\00a0';
   }

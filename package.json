@@ -1,11 +1,11 @@
 {
   "name": "flagpack",
   "version": "0.2.3",
-  "description": "lightweight flags in svg format",
+  "description": "easily add country flags to your site/app with flagpack, the lightweight flag icon toolkit",
   "main": "builder.js",
   "author": "Jack Marsh",
   "license": "MIT",
-  "homepage": "https://github.com/jackiboy/flagpack/",
+  "homepage": "https://flag.pk/all",
   "scripts": {
     "build": "node builder.js"
   },
@@ -19,8 +19,10 @@
   "keywords": [
     "flag",
     "flags",
+    "country flags",
     "svg",
     "sass",
+    "scss",
     "web",
     "lightweight",
     "small"
