@@ -1,6 +1,6 @@
 {
   "name": "flagpack",
-  "version": "0.3.6",
+  "version": "0.4.0",
   "description": "A lightweight flag icon toolkit for the web",
   "main": "builder.js",
   "author": "Jack Marsh",
