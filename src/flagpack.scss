@@ -20,6 +20,9 @@
     width: (4 / 3) * ($fp-size * 2);
     line-height: $fp-size * 2;
   }
+  &.#{$fp-prefix}-rounded{
+    border-radius: $fp-size / 4;
+  }
 }
 
 @each $country in $fp-countries {
