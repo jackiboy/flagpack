@@ -5,7 +5,7 @@
   "main": "builder.js",
   "author": "Jack Marsh",
   "license": "MIT",
-  "homepage": "https://flag.pk/all",
+  "homepage": "https://flag.pk/world",
   "scripts": {
     "build": "node builder.js"
   },
