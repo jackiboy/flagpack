@@ -8,7 +8,7 @@ sass.render({
   outputStyle: 'compressed'
 }, function (err, result) {
   if (!err) {
-    fs.writeFile(path.join(__dirname, './dist/', 'flagpack.min.css'), result.css, function (err) {
+    fs.writeFile(path.join(__dirname, './dist/', 'flagpack.css'), result.css, function (err) {
       if (!err) {
         console.log('File written to: ', pathToFlagStyles)
       } else {
