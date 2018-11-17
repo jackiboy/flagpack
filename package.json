@@ -1,7 +1,7 @@
 {
   "name": "flagpack",
   "version": "0.3.3",
-  "description": "easily add country flags to your site/app with flagpack, the lightweight flag icon toolkit",
+  "description": "A lightweight flag icon toolkit for the web",
   "main": "builder.js",
   "author": "Jack Marsh",
   "license": "MIT",
