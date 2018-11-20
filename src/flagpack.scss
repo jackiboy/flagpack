@@ -12,16 +12,22 @@
   &:before {
     content: '\00a0';
   }
+  &.#{$fp-prefix}-rounded{
+    border-radius: $fp-size / 6;
+  }
   &.#{$fp-prefix}-md{
     width: (4 / 3) * ($fp-size * 1.5);
     line-height: $fp-size * 1.5;
+    &.#{$fp-prefix}-rounded{
+      border-radius: $fp-size / 4;
+    }
   }
   &.#{$fp-prefix}-lg{
     width: (4 / 3) * ($fp-size * 2);
     line-height: $fp-size * 2;
-  }
-  &.#{$fp-prefix}-rounded{
-    border-radius: $fp-size / 4;
+    &.#{$fp-prefix}-rounded{
+      border-radius: $fp-size / 4;
+    }
   }
 }
 
