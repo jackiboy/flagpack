@@ -88,7 +88,7 @@ $fp-enable-1x1: true !default;
 ```
 
 ## Why use this library?
-Most flag libraries out there either use low quality png's or overly complex svg's. Flagpack is around `125kb gzipped` this is including all the svgs (both **1x1** and **4x3** formats) plus the css. making it about **10x** smaller than [flag-icon-css](https://github.com/lipis/flag-icon-css).
+Most flag libraries out there either use low quality png's or overly complex svg's that don't scale down well. Flagpack is around `125kb gzipped` this is including all the svgs (both **1x1** and **4x3** formats) plus the css. making it about **10x** smaller than [flag-icon-css](https://github.com/lipis/flag-icon-css).
 
 Using only **1x1** or **4x3** formats will reduce the size to around `60kb`.
 
