@@ -1,38 +1,72 @@
 @import '_variables';
+@import '_mixins';
 
 .#{$fp-prefix} {
-  position: relative;
-  display: inline-block;
-  width: (4 / 3) * $fp-size;
-  line-height: $fp-size;
-  background-size: container;
-  background-position: center;
-  background-size: auto 100%;
-  background-repeat: no-repeat;
-  &:before {
-    content: '\00a0';
+  @extend %fp-base;
+  @if $fp-enable-4x3 == true {
+    @include fp-size($fp-size);
   }
+
+  @if $fp-enable-1x1 == true {
+    &.#{$fp-prefix}-square{
+      @include fp-size($fp-size, '1x1');
+    }
+  }
+
   &.#{$fp-prefix}-rounded{
-    border-radius: $fp-size / 6;
+    @include fp-rounded($fp-size / 6);
   }
+
   &.#{$fp-prefix}-md{
-    width: (4 / 3) * ($fp-size * 1.5);
-    line-height: $fp-size * 1.5;
-    &.#{$fp-prefix}-rounded{
-      border-radius: $fp-size / 4;
+    
+
+    @if $fp-enable-4x3 == true {
+      @include fp-size($fp-size * 1.5);
     }
+
+    @if $fp-enable-1x1 == true {
+      &.#{$fp-prefix}-square{
+        @include fp-size($fp-size * 1.5, '1x1');
+      }
+    }
+
+    &.#{$fp-prefix}-rounded{
+      @include fp-rounded($fp-size / 4);
+    }
+    
   }
+
   &.#{$fp-prefix}-lg{
-    width: (4 / 3) * ($fp-size * 2);
-    line-height: $fp-size * 2;
+
+    @if $fp-enable-4x3 == true {
+      @include fp-size($fp-size * 2);
+    }
+
+    @if $fp-enable-1x1 == true {
+      &.#{$fp-prefix}-square{
+        @include fp-size($fp-size * 2, '1x1');
+      }
+    }
+
     &.#{$fp-prefix}-rounded{
-      border-radius: $fp-size / 4;
+      @include fp-rounded($fp-size / 4);
     }
   }
+
 }
 
 @each $country in $fp-countries {
 	.#{$country} { 
-		background-image: url('#{$fp-path}#{$country}.svg'); 
+
+    @if $fp-enable-4x3 == true {
+      background-image: url('#{$fp-4x3-path}#{$country}.svg');
+    }
+
+    @if $fp-enable-1x1 == true {
+      &.#{$fp-prefix}-square{
+        background-image: url('#{$fp-1x1-path}#{$country}.svg');
+      }
+    }
+    
 	}
 }
