@@ -7,7 +7,7 @@
   "license": "MIT",
   "homepage": "https://flag.pk/world",
   "scripts": {
-    "build": "node builder.js"
+    "compile:sass": "node builder.js"
   },
   "repository": {
     "type": "git",
