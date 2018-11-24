@@ -40,7 +40,7 @@ you can import the built css file directly into your project. this will include 
 `<span class="fp fp-square bo"></span>`
 
 
-_[visit flag.pk](https://flag.pk/world) to quickly copy your countries code for you project._
+_[visit flag.pk](https://flag.pk/world) to quickly copy your countries code for your project._
 
 ---
 
