@@ -1,6 +1,6 @@
 {
   "name": "flagpack",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A lightweight flag icon toolkit for the web",
   "main": "builder.js",
   "author": "Jack Marsh",
@@ -28,6 +28,6 @@
     "small"
   ],
   "devDependencies": {
-    "node-sass": "^4.10.0"
+    "node-sass": "^4.12.0"
   }
 }

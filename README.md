@@ -47,26 +47,81 @@ _[visit flag.pk](https://flag.pk/world) to quickly copy your countries code for 
 ### SASS
 Flagpack is built with SASS (SCSS). There are a few variables that are `!default` so that you can override them easily.
 
-**Set custom prefix:** Set the class prefix (the default is `fp`).
+**Set custom prefix:**  
+Set the class prefix (the default is `fp`).
 
 ```
 $fp-prefix: 'fp' !default;
 ```
 
-**Set default icon size:** This will also mofify the `fp-md`, `fp-lg` & `fp-rounded` sizes.
+**Prepend Prefix:**  
+prepend the prefix to the country code e.g. `fp-bo` instead of `bo` (the default is set to false).
+
+```
+$fp-prepend: false !default;
+```
+
+**Set default icon size:**  
+This will also mofify the `fp-md`, `fp-lg` & `fp-rounded` sizes.
 
 ```
 $fp-size: 1em !default;
 ```
 
-**Countries:** If you would like to include only a few countries you can override this variable. Just Include the country codes you want.
+**Size Helpers:**  
+by default Flagpack has a medium `.md` and large `.lg` helper class. you can disable these generating these sizes if you don't need them.
 
 ```
-$fp-countries: 'ad', 'ae', 'af', 'ag', 'ai', 'al', 'am', 'ao', 'ar', 'as', 'at', 'au', 'aw', 'ax', 'az', 'ba', 'bb', 'bd', 'be', 'bf', 'bg', 'bh', 'bi', 'bj', 'bl', 'bm', 'bn', 'bo', 'bq', 'br', 'bs', 'bt', 'bv', 'bw', 'by', 'bz', 'ca', 'cc', 'cd', 'cf', 'cg', 'ch', 'ci', 'ck', 'cl', 'cm', 'cn', 'co', 'cr', 'cu', 'cv', 'cw', 'cx', 'cy', 'cz', 'de', 'dj', 'dk', 'dm', 'do', 'dz', 'ec', 'ee', 'eg', 'eh', 'er', 'es', 'et', 'eu', 'fi', 'fj', 'fk', 'fm', 'fo', 'fr', 'ga', 'gb-eng', 'gb-nir', 'gb-sct', 'gb-wls', 'gb-zet', 'gb', 'gd', 'ge', 'gf', 'gg', 'gh', 'gi', 'gl', 'gm', 'gn', 'gp', 'gq', 'gr', 'gs', 'gt', 'gu', 'gw', 'gy', 'hk', 'hm', 'hn', 'hr', 'ht', 'hu', 'id', 'ie', 'il', 'im', 'in', 'io', 'iq', 'ir', 'is', 'it', 'je', 'jm', 'jo', 'jp', 'ke', 'kg', 'kh', 'ki', 'km', 'kn', 'kp', 'kr', 'kw', 'ky', 'kz', 'la', 'lb', 'lc', 'lgbt', 'li', 'lk', 'lr', 'ls', 'lt', 'lu', 'lv', 'ly', 'ma', 'mc', 'md', 'me', 'mf', 'mg', 'mh', 'mk', 'ml', 'mm', 'mn', 'mo', 'mp', 'mq', 'mr', 'ms', 'mt', 'mu', 'mv', 'mw', 'mx', 'my', 'mz', 'na', 'nc', 'ne', 'nf', 'ng', 'ni', 'nl', 'no', 'np', 'nr', 'nu', 'nz', 'om', 'pa', 'pe', 'pf', 'pg', 'ph', 'pk', 'pl', 'pm', 'pn', 'pr', 'ps', 'pt', 'pw', 'py', 'qa', 're', 'ro', 'rs', 'ru', 'rw', 'sa', 'sb', 'sc', 'sd', 'se', 'sg', 'sh', 'si', 'sj', 'sk', 'sl', 'sm', 'sn', 'so', 'sr', 'ss', 'st', 'sv', 'sx', 'sy', 'sz', 'tc', 'td', 'tf', 'tg', 'th', 'tj', 'tk', 'tl', 'tm', 'tn', 'to', 'tr', 'tt', 'tv', 'tw', 'tz', 'ua', 'ug', 'um', 'us', 'uy', 'uz', 'va', 'vc', 've', 'vg', 'vi', 'vn', 'vu', 'wf', 'ws', 'xk', 'ye', 'yt', 'za', 'zm', 'zw' !default;
+$fp-size-md: true !default;
+```
+
+```
+$fp-size-lg: true !default;
 ```
 
 
-**Flag SVG paths:** You will always need to override these variables if you are going to use the sass files. 
+**Countries:**  
+If you would like to include only a few countries you can override this variable. Just Include the country codes you want.
+
+```
+$fp-countries: "ad", "ae", "af", "ag", "ai", "al", "am", "ao", "ar", "as", "at",
+  "au", "aw", "ax", "az", "ba", "bb", "bd", "be", "bf", "bg", "bh", "bi", "bj",
+  "bl", "bm", "bn", "bo", "bq", "br", "bs", "bt", "bv", "bw", "by", "bz", "ca",
+  "cc", "cd", "cf", "cg", "ch", "ci", "ck", "cl", "cm", "cn", "co", "cr", "cu",
+  "cv", "cw", "cx", "cy", "cz", "de", "dj", "dk", "dm", "do", "dz", "ec", "ee",
+  "eg", "eh", "er", "es", "et", "eu", "fi", "fj", "fk", "fm", "fo", "fr", "ga",
+  "gb-eng", "gb-nir", "gb-sct", "gb-wls", "gb-zet", "gb", "gd", "ge", "gf", "gg",
+  "gh", "gi", "gl", "gm", "gn", "gp", "gq", "gr", "gs", "gt", "gu", "gw", "gy",
+  "hk", "hm", "hn", "hr", "ht", "hu", "id", "ie", "il", "im", "in", "io", "iq",
+  "ir", "is", "it", "je", "jm", "jo", "jp", "ke", "kg", "kh", "ki", "km", "kn",
+  "kp", "kr", "kw", "ky", "kz", "la", "lb", "lc", "lgbt", "li", "lk", "lr", "ls",
+  "lt", "lu", "lv", "ly", "ma", "mc", "md", "me", "mf", "mg", "mh", "mk", "ml",
+  "mm", "mn", "mo", "mp", "mq", "mr", "ms", "mt", "mu", "mv", "mw", "mx", "my",
+  "mz", "na", "nc", "ne", "nf", "ng", "ni", "nl", "no", "np", "nr", "nu", "nz",
+  "om", "pa", "pe", "pf", "pg", "ph", "pk", "pl", "pm", "pn", "pr", "ps", "pt",
+  "pw", "py", "qa", "re", "ro", "rs", "ru", "rw", "sa", "sb", "sc", "sd", "se",
+  "sg", "sh", "si", "sj", "sk", "sl", "sm", "sn", "so", "sr", "ss", "st", "sv",
+  "sx", "sy", "sz", "tc", "td", "tf", "tg", "th", "tj", "tk", "tl", "tm", "tn",
+  "to", "tr", "tt", "tv", "tw", "tz", "ua", "ug", "um", "us", "uy", "uz", "va",
+  "vc", "ve", "vg", "vi", "vn", "vu", "wf", "ws", "xk", "ye", "yt", "za", "zm",
+  "zw" !default;
+```
+
+**Enable/Disable Formats:**  
+You can optionally turn off flag formats if you would only like to use one format (both formats are enabled by default).
+
+```
+$fp-enable-4x3: true !default;
+```
+```
+$fp-enable-1x1: true !default;
+```
+```
+$fp-enable-rounded: true !default;
+```
+
+**Flag SVG paths:**  
+You will always need to override these variables if you are going to use the sass files. 
 
 * `$fp-4x3-path` is for the **4x3** (rectangle) formats. 
 * `$fp-1x1-path` is for the **1x1** (square) formats.
@@ -76,15 +131,6 @@ $fp-4x3-path: '../flags/4x3/' !default;
 ```
 ```
 $fp-1x1-path: '../flags/1x1/' !default;
-```
-
-**Enable/Disable Formats:** You can optionally turn off flag formats if you would only like to use one format (both formats are enabled by default).
-
-```
-$fp-enable-4x3: true !default;
-```
-```
-$fp-enable-1x1: true !default;
 ```
 
 ## Why use this library?

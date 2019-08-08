@@ -1,72 +1,90 @@
-@import '_variables';
-@import '_mixins';
+@import "_variables";
+@import "_mixins";
 
 .#{$fp-prefix} {
   @extend %fp-base;
+  // 4x3
   @if $fp-enable-4x3 == true {
     @include fp-size($fp-size);
   }
-
+  // 1x1
   @if $fp-enable-1x1 == true {
-    &.#{$fp-prefix}-square{
-      @include fp-size($fp-size, '1x1');
+    &.#{$fp-prefix}-square {
+      @include fp-size($fp-size, "1x1");
     }
   }
-
-  &.#{$fp-prefix}-rounded{
-    @include fp-rounded($fp-size / 6);
-  }
-
-  &.#{$fp-prefix}-md{
-    
-
-    @if $fp-enable-4x3 == true {
-      @include fp-size($fp-size * 1.5);
+  // rounded
+  @if $fp-enable-rounded == true {
+    &.#{$fp-prefix}-rounded {
+      @include fp-rounded($fp-size / 6);
     }
-
-    @if $fp-enable-1x1 == true {
-      &.#{$fp-prefix}-square{
-        @include fp-size($fp-size * 1.5, '1x1');
+  }
+  // medium size
+  @if $fp-size-md == true {
+    &.#{$fp-prefix}-md {
+      // 4x3 medium
+      @if $fp-enable-4x3 == true {
+        @include fp-size($fp-size * 1.5);
+      }
+      // 1x1 medium
+      @if $fp-enable-1x1 == true {
+        &.#{$fp-prefix}-square {
+          @include fp-size($fp-size * 1.5, "1x1");
+        }
+      }
+      // rounded medium
+      @if $fp-enable-rounded == true {
+        &.#{$fp-prefix}-rounded {
+          @include fp-rounded($fp-size / 4);
+        }
       }
     }
-
-    &.#{$fp-prefix}-rounded{
-      @include fp-rounded($fp-size / 4);
-    }
-    
   }
-
-  &.#{$fp-prefix}-lg{
-
-    @if $fp-enable-4x3 == true {
-      @include fp-size($fp-size * 2);
-    }
-
-    @if $fp-enable-1x1 == true {
-      &.#{$fp-prefix}-square{
-        @include fp-size($fp-size * 2, '1x1');
+  // large size
+  @if $fp-size-lg == true {
+    &.#{$fp-prefix}-lg {
+      // 4x3 large
+      @if $fp-enable-4x3 == true {
+        @include fp-size($fp-size * 2);
+      }
+      // 1x1 large
+      @if $fp-enable-1x1 == true {
+        &.#{$fp-prefix}-square {
+          @include fp-size($fp-size * 2, "1x1");
+        }
+      }
+      // rounded large
+      @if $fp-enable-rounded == true {
+        &.#{$fp-prefix}-rounded {
+          @include fp-rounded($fp-size / 4);
+        }
       }
     }
-
-    &.#{$fp-prefix}-rounded{
-      @include fp-rounded($fp-size / 4);
-    }
   }
-
 }
 
 @each $country in $fp-countries {
-	.#{$country} { 
-
-    @if $fp-enable-4x3 == true {
-      background-image: url('#{$fp-4x3-path}#{$country}.svg');
-    }
-
-    @if $fp-enable-1x1 == true {
-      &.#{$fp-prefix}-square{
-        background-image: url('#{$fp-1x1-path}#{$country}.svg');
+  @if $fp-prepend == true {
+    .#{$fp-prefix}-#{$country} {
+      @if $fp-enable-4x3 == true {
+        background-image: url("#{$fp-4x3-path}#{$country}.svg");
+      }
+      @if $fp-enable-1x1 == true {
+        &.#{$fp-prefix}-square {
+          background-image: url("#{$fp-1x1-path}#{$country}.svg");
+        }
       }
     }
-    
-	}
+  } @else {
+    .#{$country} {
+      @if $fp-enable-4x3 == true {
+        background-image: url("#{$fp-4x3-path}#{$country}.svg");
+      }
+      @if $fp-enable-1x1 == true {
+        &.#{$fp-prefix}-square {
+          background-image: url("#{$fp-1x1-path}#{$country}.svg");
+        }
+      }
+    }
+  }
 }
