@@ -55,7 +55,7 @@ $fp-prefix: 'fp' !default;
 ```
 
 **Prepend Prefix:**  
-prepend the prefix to the country code e.g. `fp-bo` instead of `bo` (the default is set to false).
+Prepend the prefix to the country code e.g. `fp-bo` instead of `bo` (the default is set to false).
 
 ```
 $fp-prepend: false !default;
@@ -69,7 +69,7 @@ $fp-size: 1em !default;
 ```
 
 **Size Helpers:**  
-by default Flagpack has a medium `.md` and large `.lg` helper class. you can disable these generating these sizes if you don't need them.
+By default Flagpack has a medium `.md` and large `.lg` helper class. you can disable these generating these sizes if you don't need them.
 
 ```
 $fp-size-md: true !default;
