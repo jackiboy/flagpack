@@ -121,7 +121,7 @@ $fp-enable-rounded: true !default;
 ```
 
 **Flag SVG paths:**  
-You will always need to override these variables if you are going to use the sass files. 
+You will always need to override these variables if you are going to use the sass files directly in your project. 
 
 * `$fp-4x3-path` is for the **4x3** (rectangle) formats. 
 * `$fp-1x1-path` is for the **1x1** (square) formats.
