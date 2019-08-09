@@ -69,7 +69,7 @@ $fp-size: 1em !default;
 ```
 
 **Size Helpers:**  
-By default Flagpack has a medium `.md` and large `.lg` helper class. you can disable these generating these sizes if you don't need them.
+By default Flagpack has a medium `.md` and large `.lg` helper class. you can disable generating these size classes if you don't need them.
 
 ```
 $fp-size-md: true !default;
