@@ -1,0 +1,41 @@
+html, body {
+	background: #ecf0f3;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #222833;
+}
+h2 {
+	text-align: center;
+}
+#countries {
+	display: flex;
+	flex-flow: row wrap;
+	max-width: 9000px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.country {
+	flex-grow: 0;
+	flex-shrink: 0;
+	width: 5em;
+	transition: all .2s ease-in-out;
+	margin-bottom: 1.5em;
+	background: #fff;
+	padding: 1.5em;
+	margin: .5em;
+	min-height: 2em;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 6px;
+	text-decoration: none;
+	position: relative;
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+}
+.country .name {
+	font-weight: bold;
+}
+.country .fp {
+	border: 1px solid black;
+	background-size: cover;
+}

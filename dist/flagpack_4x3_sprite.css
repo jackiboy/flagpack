@@ -1,0 +1,1090 @@
+.fp {
+  position: relative;
+  display: inline-block;
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fp:before {
+  content: "\00a0";
+}
+
+.fp {
+  line-height: 1em;
+  width: 1.33333em;
+}
+
+.fp.fp-square {
+  line-height: 1em;
+  width: 1em;
+}
+
+.fp.fp-rounded {
+  border-radius: 0.16667em;
+}
+
+.fp.fp-md {
+  line-height: 1.5em;
+  width: 2em;
+}
+
+.fp.fp-md.fp-square {
+  line-height: 1.5em;
+  width: 1.5em;
+}
+
+.fp.fp-md.fp-rounded {
+  border-radius: 0.25em;
+}
+
+.fp.fp-lg {
+  line-height: 2em;
+  width: 2.66667em;
+}
+
+.fp.fp-lg.fp-square {
+  line-height: 2em;
+  width: 2em;
+}
+
+.fp.fp-lg.fp-rounded {
+  border-radius: 0.25em;
+}
+
+.fp {
+	background: url("flagpack_4x3_sprite.svg") no-repeat;
+}
+
+.ac {
+	background-position: 0 0;
+}
+
+.ad {
+	background-position: 0 0.38910505836575876%;
+}
+
+.ae {
+	background-position: 0 0.7782101167315175%;
+}
+
+.af {
+	background-position: 0 1.1673151750972763%;
+}
+
+.ag {
+	background-position: 0 1.556420233463035%;
+}
+
+.ai {
+	background-position: 0 1.9455252918287937%;
+}
+
+.al {
+	background-position: 0 2.3346303501945527%;
+}
+
+.am {
+	background-position: 0 2.7237354085603114%;
+}
+
+.ao {
+	background-position: 0 3.11284046692607%;
+}
+
+.ar {
+	background-position: 0 3.501945525291829%;
+}
+
+.as {
+	background-position: 0 3.8910505836575875%;
+}
+
+.at {
+	background-position: 0 4.280155642023346%;
+}
+
+.au {
+	background-position: 0 4.669260700389105%;
+}
+
+.aw {
+	background-position: 0 5.058365758754864%;
+}
+
+.ax {
+	background-position: 0 5.447470817120623%;
+}
+
+.az {
+	background-position: 0 5.836575875486381%;
+}
+
+.ba {
+	background-position: 0 6.22568093385214%;
+}
+
+.bb {
+	background-position: 0 6.614785992217898%;
+}
+
+.bd {
+	background-position: 0 7.003891050583658%;
+}
+
+.be {
+	background-position: 0 7.392996108949417%;
+}
+
+.bf {
+	background-position: 0 7.782101167315175%;
+}
+
+.bg {
+	background-position: 0 8.171206225680933%;
+}
+
+.bh {
+	background-position: 0 8.560311284046692%;
+}
+
+.bi {
+	background-position: 0 8.949416342412452%;
+}
+
+.bj {
+	background-position: 0 9.33852140077821%;
+}
+
+.bl {
+	background-position: 0 9.727626459143968%;
+}
+
+.bm {
+	background-position: 0 10.116731517509727%;
+}
+
+.bn {
+	background-position: 0 10.505836575875486%;
+}
+
+.bo {
+	background-position: 0 10.894941634241246%;
+}
+
+.bq {
+	background-position: 0 11.284046692607005%;
+}
+
+.br {
+	background-position: 0 11.673151750972762%;
+}
+
+.bs {
+	background-position: 0 12.062256809338521%;
+}
+
+.bt {
+	background-position: 0 12.45136186770428%;
+}
+
+.bv {
+	background-position: 0 12.84046692607004%;
+}
+
+.bw {
+	background-position: 0 13.229571984435797%;
+}
+
+.by {
+	background-position: 0 13.618677042801556%;
+}
+
+.bz {
+	background-position: 0 14.007782101167315%;
+}
+
+.ca {
+	background-position: 0 14.396887159533074%;
+}
+
+.cc {
+	background-position: 0 14.785992217898833%;
+}
+
+.cd {
+	background-position: 0 15.17509727626459%;
+}
+
+.cf {
+	background-position: 0 15.56420233463035%;
+}
+
+.cg {
+	background-position: 0 15.95330739299611%;
+}
+
+.ch {
+	background-position: 0 16.342412451361866%;
+}
+
+.ci {
+	background-position: 0 16.731517509727627%;
+}
+
+.ck {
+	background-position: 0 17.120622568093385%;
+}
+
+.cl {
+	background-position: 0 17.509727626459146%;
+}
+
+.cm {
+	background-position: 0 17.898832684824903%;
+}
+
+.cn {
+	background-position: 0 18.28793774319066%;
+}
+
+.co {
+	background-position: 0 18.67704280155642%;
+}
+
+.cr {
+	background-position: 0 19.06614785992218%;
+}
+
+.cu {
+	background-position: 0 19.455252918287936%;
+}
+
+.cv {
+	background-position: 0 19.844357976653697%;
+}
+
+.cw {
+	background-position: 0 20.233463035019454%;
+}
+
+.cx {
+	background-position: 0 20.622568093385215%;
+}
+
+.cy {
+	background-position: 0 21.011673151750973%;
+}
+
+.cz {
+	background-position: 0 21.40077821011673%;
+}
+
+.de {
+	background-position: 0 21.78988326848249%;
+}
+
+.dj {
+	background-position: 0 22.17898832684825%;
+}
+
+.dk {
+	background-position: 0 22.56809338521401%;
+}
+
+.dm {
+	background-position: 0 22.957198443579767%;
+}
+
+.do {
+	background-position: 0 23.346303501945524%;
+}
+
+.dz {
+	background-position: 0 23.735408560311285%;
+}
+
+.ec {
+	background-position: 0 24.124513618677042%;
+}
+
+.ee {
+	background-position: 0 24.513618677042803%;
+}
+
+.eg {
+	background-position: 0 24.90272373540856%;
+}
+
+.eh {
+	background-position: 0 25.291828793774318%;
+}
+
+.er {
+	background-position: 0 25.68093385214008%;
+}
+
+.es {
+	background-position: 0 26.070038910505836%;
+}
+
+.et {
+	background-position: 0 26.459143968871594%;
+}
+
+.eu {
+	background-position: 0 26.848249027237355%;
+}
+
+.fi {
+	background-position: 0 27.237354085603112%;
+}
+
+.fj {
+	background-position: 0 27.626459143968873%;
+}
+
+.fk {
+	background-position: 0 28.01556420233463%;
+}
+
+.fm {
+	background-position: 0 28.404669260700388%;
+}
+
+.fo {
+	background-position: 0 28.79377431906615%;
+}
+
+.fr {
+	background-position: 0 29.182879377431906%;
+}
+
+.ga {
+	background-position: 0 29.571984435797667%;
+}
+
+.gb {
+	background-position: 0 29.961089494163424%;
+}
+
+.gb-eng {
+	background-position: 0 30.35019455252918%;
+}
+
+.gb-nir {
+	background-position: 0 30.739299610894943%;
+}
+
+.gb-sct {
+	background-position: 0 31.1284046692607%;
+}
+
+.gb-wls {
+	background-position: 0 31.51750972762646%;
+}
+
+.gb-zet {
+	background-position: 0 31.90661478599222%;
+}
+
+.gd {
+	background-position: 0 32.295719844357976%;
+}
+
+.ge {
+	background-position: 0 32.68482490272373%;
+}
+
+.gf {
+	background-position: 0 33.0739299610895%;
+}
+
+.gg {
+	background-position: 0 33.463035019455255%;
+}
+
+.gh {
+	background-position: 0 33.85214007782101%;
+}
+
+.gi {
+	background-position: 0 34.24124513618677%;
+}
+
+.gl {
+	background-position: 0 34.63035019455253%;
+}
+
+.gm {
+	background-position: 0 35.01945525291829%;
+}
+
+.gn {
+	background-position: 0 35.40856031128405%;
+}
+
+.gp {
+	background-position: 0 35.797665369649806%;
+}
+
+.gq {
+	background-position: 0 36.18677042801556%;
+}
+
+.gr {
+	background-position: 0 36.57587548638132%;
+}
+
+.gs {
+	background-position: 0 36.96498054474708%;
+}
+
+.gt {
+	background-position: 0 37.35408560311284%;
+}
+
+.gu {
+	background-position: 0 37.7431906614786%;
+}
+
+.gw {
+	background-position: 0 38.13229571984436%;
+}
+
+.gy {
+	background-position: 0 38.521400778210115%;
+}
+
+.hk {
+	background-position: 0 38.91050583657587%;
+}
+
+.hm {
+	background-position: 0 39.29961089494164%;
+}
+
+.hn {
+	background-position: 0 39.688715953307394%;
+}
+
+.hr {
+	background-position: 0 40.07782101167315%;
+}
+
+.ht {
+	background-position: 0 40.46692607003891%;
+}
+
+.hu {
+	background-position: 0 40.856031128404666%;
+}
+
+.id {
+	background-position: 0 41.24513618677043%;
+}
+
+.ie {
+	background-position: 0 41.63424124513619%;
+}
+
+.il {
+	background-position: 0 42.023346303501945%;
+}
+
+.im {
+	background-position: 0 42.4124513618677%;
+}
+
+.in {
+	background-position: 0 42.80155642023346%;
+}
+
+.io {
+	background-position: 0 43.190661478599225%;
+}
+
+.iq {
+	background-position: 0 43.57976653696498%;
+}
+
+.ir {
+	background-position: 0 43.96887159533074%;
+}
+
+.is {
+	background-position: 0 44.3579766536965%;
+}
+
+.it {
+	background-position: 0 44.747081712062254%;
+}
+
+.je {
+	background-position: 0 45.13618677042802%;
+}
+
+.jm {
+	background-position: 0 45.525291828793776%;
+}
+
+.jo {
+	background-position: 0 45.91439688715953%;
+}
+
+.jp {
+	background-position: 0 46.30350194552529%;
+}
+
+.ke {
+	background-position: 0 46.69260700389105%;
+}
+
+.kg {
+	background-position: 0 47.08171206225681%;
+}
+
+.kh {
+	background-position: 0 47.47081712062257%;
+}
+
+.ki {
+	background-position: 0 47.85992217898833%;
+}
+
+.km {
+	background-position: 0 48.249027237354085%;
+}
+
+.kn {
+	background-position: 0 48.63813229571984%;
+}
+
+.kp {
+	background-position: 0 49.02723735408561%;
+}
+
+.kr {
+	background-position: 0 49.416342412451364%;
+}
+
+.kw {
+	background-position: 0 49.80544747081712%;
+}
+
+.ky {
+	background-position: 0 50.19455252918288%;
+}
+
+.kz {
+	background-position: 0 50.583657587548636%;
+}
+
+.la {
+	background-position: 0 50.97276264591439%;
+}
+
+.lb {
+	background-position: 0 51.36186770428016%;
+}
+
+.lc {
+	background-position: 0 51.750972762645915%;
+}
+
+.lgbt {
+	background-position: 0 52.14007782101167%;
+}
+
+.li {
+	background-position: 0 52.52918287937743%;
+}
+
+.lk {
+	background-position: 0 52.91828793774319%;
+}
+
+.lr {
+	background-position: 0 53.30739299610895%;
+}
+
+.ls {
+	background-position: 0 53.69649805447471%;
+}
+
+.lt {
+	background-position: 0 54.08560311284047%;
+}
+
+.lu {
+	background-position: 0 54.474708171206224%;
+}
+
+.lv {
+	background-position: 0 54.86381322957198%;
+}
+
+.ly {
+	background-position: 0 55.252918287937746%;
+}
+
+.ma {
+	background-position: 0 55.6420233463035%;
+}
+
+.mc {
+	background-position: 0 56.03112840466926%;
+}
+
+.md {
+	background-position: 0 56.42023346303502%;
+}
+
+.me {
+	background-position: 0 56.809338521400775%;
+}
+
+.mf {
+	background-position: 0 57.19844357976654%;
+}
+
+.mg {
+	background-position: 0 57.5875486381323%;
+}
+
+.mh {
+	background-position: 0 57.976653696498055%;
+}
+
+.mk {
+	background-position: 0 58.36575875486381%;
+}
+
+.ml {
+	background-position: 0 58.75486381322957%;
+}
+
+.mm {
+	background-position: 0 59.143968871595334%;
+}
+
+.mn {
+	background-position: 0 59.53307392996109%;
+}
+
+.mo {
+	background-position: 0 59.92217898832685%;
+}
+
+.mp {
+	background-position: 0 60.311284046692606%;
+}
+
+.mq {
+	background-position: 0 60.70038910505836%;
+}
+
+.mr {
+	background-position: 0 61.08949416342413%;
+}
+
+.ms {
+	background-position: 0 61.478599221789885%;
+}
+
+.mt {
+	background-position: 0 61.86770428015564%;
+}
+
+.mu {
+	background-position: 0 62.2568093385214%;
+}
+
+.mv {
+	background-position: 0 62.64591439688716%;
+}
+
+.mw {
+	background-position: 0 63.03501945525292%;
+}
+
+.mx {
+	background-position: 0 63.42412451361868%;
+}
+
+.my {
+	background-position: 0 63.81322957198444%;
+}
+
+.mz {
+	background-position: 0 64.2023346303502%;
+}
+
+.na {
+	background-position: 0 64.59143968871595%;
+}
+
+.nc {
+	background-position: 0 64.98054474708171%;
+}
+
+.ne {
+	background-position: 0 65.36964980544747%;
+}
+
+.nf {
+	background-position: 0 65.75875486381322%;
+}
+
+.ng {
+	background-position: 0 66.147859922179%;
+}
+
+.ni {
+	background-position: 0 66.53696498054475%;
+}
+
+.nl {
+	background-position: 0 66.92607003891051%;
+}
+
+.no {
+	background-position: 0 67.31517509727627%;
+}
+
+.np {
+	background-position: 0 67.70428015564202%;
+}
+
+.nr {
+	background-position: 0 68.09338521400778%;
+}
+
+.nu {
+	background-position: 0 68.48249027237354%;
+}
+
+.nz {
+	background-position: 0 68.8715953307393%;
+}
+
+.om {
+	background-position: 0 69.26070038910505%;
+}
+
+.pa {
+	background-position: 0 69.64980544747081%;
+}
+
+.pe {
+	background-position: 0 70.03891050583658%;
+}
+
+.pf {
+	background-position: 0 70.42801556420234%;
+}
+
+.pg {
+	background-position: 0 70.8171206225681%;
+}
+
+.ph {
+	background-position: 0 71.20622568093385%;
+}
+
+.pk {
+	background-position: 0 71.59533073929961%;
+}
+
+.pl {
+	background-position: 0 71.98443579766537%;
+}
+
+.pm {
+	background-position: 0 72.37354085603113%;
+}
+
+.pn {
+	background-position: 0 72.76264591439688%;
+}
+
+.pr {
+	background-position: 0 73.15175097276264%;
+}
+
+.ps {
+	background-position: 0 73.5408560311284%;
+}
+
+.pt {
+	background-position: 0 73.92996108949416%;
+}
+
+.pw {
+	background-position: 0 74.31906614785993%;
+}
+
+.py {
+	background-position: 0 74.70817120622569%;
+}
+
+.qa {
+	background-position: 0 75.09727626459144%;
+}
+
+.re {
+	background-position: 0 75.4863813229572%;
+}
+
+.ro {
+	background-position: 0 75.87548638132296%;
+}
+
+.rs {
+	background-position: 0 76.26459143968872%;
+}
+
+.ru {
+	background-position: 0 76.65369649805447%;
+}
+
+.rw {
+	background-position: 0 77.04280155642023%;
+}
+
+.sa {
+	background-position: 0 77.43190661478599%;
+}
+
+.sb {
+	background-position: 0 77.82101167315174%;
+}
+
+.sc {
+	background-position: 0 78.21011673151752%;
+}
+
+.sd {
+	background-position: 0 78.59922178988327%;
+}
+
+.se {
+	background-position: 0 78.98832684824903%;
+}
+
+.sg {
+	background-position: 0 79.37743190661479%;
+}
+
+.sh {
+	background-position: 0 79.76653696498055%;
+}
+
+.si {
+	background-position: 0 80.1556420233463%;
+}
+
+.sj {
+	background-position: 0 80.54474708171206%;
+}
+
+.sk {
+	background-position: 0 80.93385214007782%;
+}
+
+.sl {
+	background-position: 0 81.32295719844358%;
+}
+
+.sm {
+	background-position: 0 81.71206225680933%;
+}
+
+.sn {
+	background-position: 0 82.1011673151751%;
+}
+
+.so {
+	background-position: 0 82.49027237354086%;
+}
+
+.sr {
+	background-position: 0 82.87937743190662%;
+}
+
+.ss {
+	background-position: 0 83.26848249027238%;
+}
+
+.st {
+	background-position: 0 83.65758754863813%;
+}
+
+.sv {
+	background-position: 0 84.04669260700389%;
+}
+
+.sx {
+	background-position: 0 84.43579766536965%;
+}
+
+.sy {
+	background-position: 0 84.8249027237354%;
+}
+
+.sz {
+	background-position: 0 85.21400778210116%;
+}
+
+.ta {
+	background-position: 0 85.60311284046692%;
+}
+
+.tc {
+	background-position: 0 85.99221789883268%;
+}
+
+.td {
+	background-position: 0 86.38132295719845%;
+}
+
+.tf {
+	background-position: 0 86.7704280155642%;
+}
+
+.tg {
+	background-position: 0 87.15953307392996%;
+}
+
+.th {
+	background-position: 0 87.54863813229572%;
+}
+
+.tj {
+	background-position: 0 87.93774319066148%;
+}
+
+.tk {
+	background-position: 0 88.32684824902724%;
+}
+
+.tl {
+	background-position: 0 88.715953307393%;
+}
+
+.tm {
+	background-position: 0 89.10505836575875%;
+}
+
+.tn {
+	background-position: 0 89.49416342412451%;
+}
+
+.to {
+	background-position: 0 89.88326848249027%;
+}
+
+.tr {
+	background-position: 0 90.27237354085604%;
+}
+
+.tt {
+	background-position: 0 90.6614785992218%;
+}
+
+.tv {
+	background-position: 0 91.05058365758755%;
+}
+
+.tw {
+	background-position: 0 91.43968871595331%;
+}
+
+.tz {
+	background-position: 0 91.82879377431907%;
+}
+
+.ua {
+	background-position: 0 92.21789883268482%;
+}
+
+.ug {
+	background-position: 0 92.60700389105058%;
+}
+
+.um {
+	background-position: 0 92.99610894941634%;
+}
+
+.us {
+	background-position: 0 93.3852140077821%;
+}
+
+.uy {
+	background-position: 0 93.77431906614785%;
+}
+
+.uz {
+	background-position: 0 94.16342412451363%;
+}
+
+.va {
+	background-position: 0 94.55252918287938%;
+}
+
+.vc {
+	background-position: 0 94.94163424124514%;
+}
+
+.ve {
+	background-position: 0 95.3307392996109%;
+}
+
+.vg {
+	background-position: 0 95.71984435797665%;
+}
+
+.vi {
+	background-position: 0 96.10894941634241%;
+}
+
+.vn {
+	background-position: 0 96.49805447470817%;
+}
+
+.vu {
+	background-position: 0 96.88715953307393%;
+}
+
+.wf {
+	background-position: 0 97.27626459143968%;
+}
+
+.ws {
+	background-position: 0 97.66536964980544%;
+}
+
+.xk {
+	background-position: 0 98.05447470817121%;
+}
+
+.ye {
+	background-position: 0 98.44357976653697%;
+}
+
+.yt {
+	background-position: 0 98.83268482490273%;
+}
+
+.za {
+	background-position: 0 99.22178988326849%;
+}
+
+.zm {
+	background-position: 0 99.61089494163424%;
+}
+
+.zw {
+	background-position: 0 100%;
+}
+
