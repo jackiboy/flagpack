@@ -34,14 +34,3 @@ $fp-enable-rounded: true !default;
 // paths
 $fp-4x3-path: "../flags/4x3/" !default;
 $fp-1x1-path: "../flags/1x1/" !default;
-// base extend
-%fp-base {
-  position: relative;
-  display: inline-block;
-  background-size: auto 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  &:before {
-    content: "\00a0";
-  }
-}

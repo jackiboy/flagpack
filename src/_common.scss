@@ -1,0 +1,76 @@
+@import "_variables";
+@import "_mixins";
+
+// base extend
+%fp-base {
+  position: relative;
+  display: inline-block;
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  &:before {
+    content: "\00a0";
+  }
+}
+
+.#{$fp-prefix} {
+  @extend %fp-base;
+  // 4x3
+  @if $fp-enable-4x3 == true {
+    @include fp-size($fp-size);
+  }
+  // 1x1
+  @if $fp-enable-1x1 == true {
+    &.#{$fp-prefix}-square {
+      @include fp-size($fp-size, "1x1");
+    }
+  }
+  // rounded
+  @if $fp-enable-rounded == true {
+    &.#{$fp-prefix}-rounded {
+      @include fp-rounded($fp-size / 6);
+    }
+  }
+  // medium size
+  @if $fp-size-md == true {
+    &.#{$fp-prefix}-md {
+      // 4x3 medium
+      @if $fp-enable-4x3 == true {
+        @include fp-size($fp-size * 1.5);
+      }
+      // 1x1 medium
+      @if $fp-enable-1x1 == true {
+        &.#{$fp-prefix}-square {
+          @include fp-size($fp-size * 1.5, "1x1");
+        }
+      }
+      // rounded medium
+      @if $fp-enable-rounded == true {
+        &.#{$fp-prefix}-rounded {
+          @include fp-rounded($fp-size / 4);
+        }
+      }
+    }
+  }
+  // large size
+  @if $fp-size-lg == true {
+    &.#{$fp-prefix}-lg {
+      // 4x3 large
+      @if $fp-enable-4x3 == true {
+        @include fp-size($fp-size * 2);
+      }
+      // 1x1 large
+      @if $fp-enable-1x1 == true {
+        &.#{$fp-prefix}-square {
+          @include fp-size($fp-size * 2, "1x1");
+        }
+      }
+      // rounded large
+      @if $fp-enable-rounded == true {
+        &.#{$fp-prefix}-rounded {
+          @include fp-rounded($fp-size / 4);
+        }
+      }
+    }
+  }
+}

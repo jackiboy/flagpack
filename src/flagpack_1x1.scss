@@ -1,13 +1,10 @@
 @import "_variables";
 
-@import "_common";
+@import "common";
 
 @each $country in $fp-countries {
   @if $fp-prepend == true {
     .#{$fp-prefix}-#{$country} {
-      @if $fp-enable-4x3 == true {
-        background-image: url("#{$fp-4x3-path}#{$country}.svg");
-      }
       @if $fp-enable-1x1 == true {
         &.#{$fp-prefix}-square {
           background-image: url("#{$fp-1x1-path}#{$country}.svg");
@@ -16,9 +13,6 @@
     }
   } @else {
     .#{$country} {
-      @if $fp-enable-4x3 == true {
-        background-image: url("#{$fp-4x3-path}#{$country}.svg");
-      }
       @if $fp-enable-1x1 == true {
         &.#{$fp-prefix}-square {
           background-image: url("#{$fp-1x1-path}#{$country}.svg");
