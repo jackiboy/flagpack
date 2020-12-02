@@ -1,0 +1,1090 @@
+.fp {
+  position: relative;
+  display: inline-block;
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fp:before {
+  content: "\00a0";
+}
+
+.fp {
+  line-height: 1em;
+  width: 1.33333em;
+}
+
+.fp.fp-square {
+  line-height: 1em;
+  width: 1em;
+}
+
+.fp.fp-rounded {
+  border-radius: 0.16667em;
+}
+
+.fp.fp-md {
+  line-height: 1.5em;
+  width: 2em;
+}
+
+.fp.fp-md.fp-square {
+  line-height: 1.5em;
+  width: 1.5em;
+}
+
+.fp.fp-md.fp-rounded {
+  border-radius: 0.25em;
+}
+
+.fp.fp-lg {
+  line-height: 2em;
+  width: 2.66667em;
+}
+
+.fp.fp-lg.fp-square {
+  line-height: 2em;
+  width: 2em;
+}
+
+.fp.fp-lg.fp-rounded {
+  border-radius: 0.25em;
+}
+
+.fp {
+	background: url("flagpack_1x1_sprite.svg") no-repeat;
+}
+
+.ac.fp-square {
+	background-position: 0 0;
+}
+
+.ad.fp-square {
+	background-position: 0 0.38910505836575876%;
+}
+
+.ae.fp-square {
+	background-position: 0 0.7782101167315175%;
+}
+
+.af.fp-square {
+	background-position: 0 1.1673151750972763%;
+}
+
+.ag.fp-square {
+	background-position: 0 1.556420233463035%;
+}
+
+.ai.fp-square {
+	background-position: 0 1.9455252918287937%;
+}
+
+.al.fp-square {
+	background-position: 0 2.3346303501945527%;
+}
+
+.am.fp-square {
+	background-position: 0 2.7237354085603114%;
+}
+
+.ao.fp-square {
+	background-position: 0 3.11284046692607%;
+}
+
+.ar.fp-square {
+	background-position: 0 3.501945525291829%;
+}
+
+.as.fp-square {
+	background-position: 0 3.8910505836575875%;
+}
+
+.at.fp-square {
+	background-position: 0 4.280155642023346%;
+}
+
+.au.fp-square {
+	background-position: 0 4.669260700389105%;
+}
+
+.aw.fp-square {
+	background-position: 0 5.058365758754864%;
+}
+
+.ax.fp-square {
+	background-position: 0 5.447470817120623%;
+}
+
+.az.fp-square {
+	background-position: 0 5.836575875486381%;
+}
+
+.ba.fp-square {
+	background-position: 0 6.22568093385214%;
+}
+
+.bb.fp-square {
+	background-position: 0 6.614785992217898%;
+}
+
+.bd.fp-square {
+	background-position: 0 7.003891050583658%;
+}
+
+.be.fp-square {
+	background-position: 0 7.392996108949417%;
+}
+
+.bf.fp-square {
+	background-position: 0 7.782101167315175%;
+}
+
+.bg.fp-square {
+	background-position: 0 8.171206225680933%;
+}
+
+.bh.fp-square {
+	background-position: 0 8.560311284046692%;
+}
+
+.bi.fp-square {
+	background-position: 0 8.949416342412452%;
+}
+
+.bj.fp-square {
+	background-position: 0 9.33852140077821%;
+}
+
+.bl.fp-square {
+	background-position: 0 9.727626459143968%;
+}
+
+.bm.fp-square {
+	background-position: 0 10.116731517509727%;
+}
+
+.bn.fp-square {
+	background-position: 0 10.505836575875486%;
+}
+
+.bo.fp-square {
+	background-position: 0 10.894941634241246%;
+}
+
+.bq.fp-square {
+	background-position: 0 11.284046692607005%;
+}
+
+.br.fp-square {
+	background-position: 0 11.673151750972762%;
+}
+
+.bs.fp-square {
+	background-position: 0 12.062256809338521%;
+}
+
+.bt.fp-square {
+	background-position: 0 12.45136186770428%;
+}
+
+.bv.fp-square {
+	background-position: 0 12.84046692607004%;
+}
+
+.bw.fp-square {
+	background-position: 0 13.229571984435797%;
+}
+
+.by.fp-square {
+	background-position: 0 13.618677042801556%;
+}
+
+.bz.fp-square {
+	background-position: 0 14.007782101167315%;
+}
+
+.ca.fp-square {
+	background-position: 0 14.396887159533074%;
+}
+
+.cc.fp-square {
+	background-position: 0 14.785992217898833%;
+}
+
+.cd.fp-square {
+	background-position: 0 15.17509727626459%;
+}
+
+.cf.fp-square {
+	background-position: 0 15.56420233463035%;
+}
+
+.cg.fp-square {
+	background-position: 0 15.95330739299611%;
+}
+
+.ch.fp-square {
+	background-position: 0 16.342412451361866%;
+}
+
+.ci.fp-square {
+	background-position: 0 16.731517509727627%;
+}
+
+.ck.fp-square {
+	background-position: 0 17.120622568093385%;
+}
+
+.cl.fp-square {
+	background-position: 0 17.509727626459146%;
+}
+
+.cm.fp-square {
+	background-position: 0 17.898832684824903%;
+}
+
+.cn.fp-square {
+	background-position: 0 18.28793774319066%;
+}
+
+.co.fp-square {
+	background-position: 0 18.67704280155642%;
+}
+
+.cr.fp-square {
+	background-position: 0 19.06614785992218%;
+}
+
+.cu.fp-square {
+	background-position: 0 19.455252918287936%;
+}
+
+.cv.fp-square {
+	background-position: 0 19.844357976653697%;
+}
+
+.cw.fp-square {
+	background-position: 0 20.233463035019454%;
+}
+
+.cx.fp-square {
+	background-position: 0 20.622568093385215%;
+}
+
+.cy.fp-square {
+	background-position: 0 21.011673151750973%;
+}
+
+.cz.fp-square {
+	background-position: 0 21.40077821011673%;
+}
+
+.de.fp-square {
+	background-position: 0 21.78988326848249%;
+}
+
+.dj.fp-square {
+	background-position: 0 22.17898832684825%;
+}
+
+.dk.fp-square {
+	background-position: 0 22.56809338521401%;
+}
+
+.dm.fp-square {
+	background-position: 0 22.957198443579767%;
+}
+
+.do.fp-square {
+	background-position: 0 23.346303501945524%;
+}
+
+.dz.fp-square {
+	background-position: 0 23.735408560311285%;
+}
+
+.ec.fp-square {
+	background-position: 0 24.124513618677042%;
+}
+
+.ee.fp-square {
+	background-position: 0 24.513618677042803%;
+}
+
+.eg.fp-square {
+	background-position: 0 24.90272373540856%;
+}
+
+.eh.fp-square {
+	background-position: 0 25.291828793774318%;
+}
+
+.er.fp-square {
+	background-position: 0 25.68093385214008%;
+}
+
+.es.fp-square {
+	background-position: 0 26.070038910505836%;
+}
+
+.et.fp-square {
+	background-position: 0 26.459143968871594%;
+}
+
+.eu.fp-square {
+	background-position: 0 26.848249027237355%;
+}
+
+.fi.fp-square {
+	background-position: 0 27.237354085603112%;
+}
+
+.fj.fp-square {
+	background-position: 0 27.626459143968873%;
+}
+
+.fk.fp-square {
+	background-position: 0 28.01556420233463%;
+}
+
+.fm.fp-square {
+	background-position: 0 28.404669260700388%;
+}
+
+.fo.fp-square {
+	background-position: 0 28.79377431906615%;
+}
+
+.fr.fp-square {
+	background-position: 0 29.182879377431906%;
+}
+
+.ga.fp-square {
+	background-position: 0 29.571984435797667%;
+}
+
+.gb.fp-square {
+	background-position: 0 29.961089494163424%;
+}
+
+.gb-eng.fp-square {
+	background-position: 0 30.35019455252918%;
+}
+
+.gb-nir.fp-square {
+	background-position: 0 30.739299610894943%;
+}
+
+.gb-sct.fp-square {
+	background-position: 0 31.1284046692607%;
+}
+
+.gb-wls.fp-square {
+	background-position: 0 31.51750972762646%;
+}
+
+.gb-zet.fp-square {
+	background-position: 0 31.90661478599222%;
+}
+
+.gd.fp-square {
+	background-position: 0 32.295719844357976%;
+}
+
+.ge.fp-square {
+	background-position: 0 32.68482490272373%;
+}
+
+.gf.fp-square {
+	background-position: 0 33.0739299610895%;
+}
+
+.gg.fp-square {
+	background-position: 0 33.463035019455255%;
+}
+
+.gh.fp-square {
+	background-position: 0 33.85214007782101%;
+}
+
+.gi.fp-square {
+	background-position: 0 34.24124513618677%;
+}
+
+.gl.fp-square {
+	background-position: 0 34.63035019455253%;
+}
+
+.gm.fp-square {
+	background-position: 0 35.01945525291829%;
+}
+
+.gn.fp-square {
+	background-position: 0 35.40856031128405%;
+}
+
+.gp.fp-square {
+	background-position: 0 35.797665369649806%;
+}
+
+.gq.fp-square {
+	background-position: 0 36.18677042801556%;
+}
+
+.gr.fp-square {
+	background-position: 0 36.57587548638132%;
+}
+
+.gs.fp-square {
+	background-position: 0 36.96498054474708%;
+}
+
+.gt.fp-square {
+	background-position: 0 37.35408560311284%;
+}
+
+.gu.fp-square {
+	background-position: 0 37.7431906614786%;
+}
+
+.gw.fp-square {
+	background-position: 0 38.13229571984436%;
+}
+
+.gy.fp-square {
+	background-position: 0 38.521400778210115%;
+}
+
+.hk.fp-square {
+	background-position: 0 38.91050583657587%;
+}
+
+.hm.fp-square {
+	background-position: 0 39.29961089494164%;
+}
+
+.hn.fp-square {
+	background-position: 0 39.688715953307394%;
+}
+
+.hr.fp-square {
+	background-position: 0 40.07782101167315%;
+}
+
+.ht.fp-square {
+	background-position: 0 40.46692607003891%;
+}
+
+.hu.fp-square {
+	background-position: 0 40.856031128404666%;
+}
+
+.id.fp-square {
+	background-position: 0 41.24513618677043%;
+}
+
+.ie.fp-square {
+	background-position: 0 41.63424124513619%;
+}
+
+.il.fp-square {
+	background-position: 0 42.023346303501945%;
+}
+
+.im.fp-square {
+	background-position: 0 42.4124513618677%;
+}
+
+.in.fp-square {
+	background-position: 0 42.80155642023346%;
+}
+
+.io.fp-square {
+	background-position: 0 43.190661478599225%;
+}
+
+.iq.fp-square {
+	background-position: 0 43.57976653696498%;
+}
+
+.ir.fp-square {
+	background-position: 0 43.96887159533074%;
+}
+
+.is.fp-square {
+	background-position: 0 44.3579766536965%;
+}
+
+.it.fp-square {
+	background-position: 0 44.747081712062254%;
+}
+
+.je.fp-square {
+	background-position: 0 45.13618677042802%;
+}
+
+.jm.fp-square {
+	background-position: 0 45.525291828793776%;
+}
+
+.jo.fp-square {
+	background-position: 0 45.91439688715953%;
+}
+
+.jp.fp-square {
+	background-position: 0 46.30350194552529%;
+}
+
+.ke.fp-square {
+	background-position: 0 46.69260700389105%;
+}
+
+.kg.fp-square {
+	background-position: 0 47.08171206225681%;
+}
+
+.kh.fp-square {
+	background-position: 0 47.47081712062257%;
+}
+
+.ki.fp-square {
+	background-position: 0 47.85992217898833%;
+}
+
+.km.fp-square {
+	background-position: 0 48.249027237354085%;
+}
+
+.kn.fp-square {
+	background-position: 0 48.63813229571984%;
+}
+
+.kp.fp-square {
+	background-position: 0 49.02723735408561%;
+}
+
+.kr.fp-square {
+	background-position: 0 49.416342412451364%;
+}
+
+.kw.fp-square {
+	background-position: 0 49.80544747081712%;
+}
+
+.ky.fp-square {
+	background-position: 0 50.19455252918288%;
+}
+
+.kz.fp-square {
+	background-position: 0 50.583657587548636%;
+}
+
+.la.fp-square {
+	background-position: 0 50.97276264591439%;
+}
+
+.lb.fp-square {
+	background-position: 0 51.36186770428016%;
+}
+
+.lc.fp-square {
+	background-position: 0 51.750972762645915%;
+}
+
+.lgbt.fp-square {
+	background-position: 0 52.14007782101167%;
+}
+
+.li.fp-square {
+	background-position: 0 52.52918287937743%;
+}
+
+.lk.fp-square {
+	background-position: 0 52.91828793774319%;
+}
+
+.lr.fp-square {
+	background-position: 0 53.30739299610895%;
+}
+
+.ls.fp-square {
+	background-position: 0 53.69649805447471%;
+}
+
+.lt.fp-square {
+	background-position: 0 54.08560311284047%;
+}
+
+.lu.fp-square {
+	background-position: 0 54.474708171206224%;
+}
+
+.lv.fp-square {
+	background-position: 0 54.86381322957198%;
+}
+
+.ly.fp-square {
+	background-position: 0 55.252918287937746%;
+}
+
+.ma.fp-square {
+	background-position: 0 55.6420233463035%;
+}
+
+.mc.fp-square {
+	background-position: 0 56.03112840466926%;
+}
+
+.md.fp-square {
+	background-position: 0 56.42023346303502%;
+}
+
+.me.fp-square {
+	background-position: 0 56.809338521400775%;
+}
+
+.mf.fp-square {
+	background-position: 0 57.19844357976654%;
+}
+
+.mg.fp-square {
+	background-position: 0 57.5875486381323%;
+}
+
+.mh.fp-square {
+	background-position: 0 57.976653696498055%;
+}
+
+.mk.fp-square {
+	background-position: 0 58.36575875486381%;
+}
+
+.ml.fp-square {
+	background-position: 0 58.75486381322957%;
+}
+
+.mm.fp-square {
+	background-position: 0 59.143968871595334%;
+}
+
+.mn.fp-square {
+	background-position: 0 59.53307392996109%;
+}
+
+.mo.fp-square {
+	background-position: 0 59.92217898832685%;
+}
+
+.mp.fp-square {
+	background-position: 0 60.311284046692606%;
+}
+
+.mq.fp-square {
+	background-position: 0 60.70038910505836%;
+}
+
+.mr.fp-square {
+	background-position: 0 61.08949416342413%;
+}
+
+.ms.fp-square {
+	background-position: 0 61.478599221789885%;
+}
+
+.mt.fp-square {
+	background-position: 0 61.86770428015564%;
+}
+
+.mu.fp-square {
+	background-position: 0 62.2568093385214%;
+}
+
+.mv.fp-square {
+	background-position: 0 62.64591439688716%;
+}
+
+.mw.fp-square {
+	background-position: 0 63.03501945525292%;
+}
+
+.mx.fp-square {
+	background-position: 0 63.42412451361868%;
+}
+
+.my.fp-square {
+	background-position: 0 63.81322957198444%;
+}
+
+.mz.fp-square {
+	background-position: 0 64.2023346303502%;
+}
+
+.na.fp-square {
+	background-position: 0 64.59143968871595%;
+}
+
+.nc.fp-square {
+	background-position: 0 64.98054474708171%;
+}
+
+.ne.fp-square {
+	background-position: 0 65.36964980544747%;
+}
+
+.nf.fp-square {
+	background-position: 0 65.75875486381322%;
+}
+
+.ng.fp-square {
+	background-position: 0 66.147859922179%;
+}
+
+.ni.fp-square {
+	background-position: 0 66.53696498054475%;
+}
+
+.nl.fp-square {
+	background-position: 0 66.92607003891051%;
+}
+
+.no.fp-square {
+	background-position: 0 67.31517509727627%;
+}
+
+.np.fp-square {
+	background-position: 0 67.70428015564202%;
+}
+
+.nr.fp-square {
+	background-position: 0 68.09338521400778%;
+}
+
+.nu.fp-square {
+	background-position: 0 68.48249027237354%;
+}
+
+.nz.fp-square {
+	background-position: 0 68.8715953307393%;
+}
+
+.om.fp-square {
+	background-position: 0 69.26070038910505%;
+}
+
+.pa.fp-square {
+	background-position: 0 69.64980544747081%;
+}
+
+.pe.fp-square {
+	background-position: 0 70.03891050583658%;
+}
+
+.pf.fp-square {
+	background-position: 0 70.42801556420234%;
+}
+
+.pg.fp-square {
+	background-position: 0 70.8171206225681%;
+}
+
+.ph.fp-square {
+	background-position: 0 71.20622568093385%;
+}
+
+.pk.fp-square {
+	background-position: 0 71.59533073929961%;
+}
+
+.pl.fp-square {
+	background-position: 0 71.98443579766537%;
+}
+
+.pm.fp-square {
+	background-position: 0 72.37354085603113%;
+}
+
+.pn.fp-square {
+	background-position: 0 72.76264591439688%;
+}
+
+.pr.fp-square {
+	background-position: 0 73.15175097276264%;
+}
+
+.ps.fp-square {
+	background-position: 0 73.5408560311284%;
+}
+
+.pt.fp-square {
+	background-position: 0 73.92996108949416%;
+}
+
+.pw.fp-square {
+	background-position: 0 74.31906614785993%;
+}
+
+.py.fp-square {
+	background-position: 0 74.70817120622569%;
+}
+
+.qa.fp-square {
+	background-position: 0 75.09727626459144%;
+}
+
+.re.fp-square {
+	background-position: 0 75.4863813229572%;
+}
+
+.ro.fp-square {
+	background-position: 0 75.87548638132296%;
+}
+
+.rs.fp-square {
+	background-position: 0 76.26459143968872%;
+}
+
+.ru.fp-square {
+	background-position: 0 76.65369649805447%;
+}
+
+.rw.fp-square {
+	background-position: 0 77.04280155642023%;
+}
+
+.sa.fp-square {
+	background-position: 0 77.43190661478599%;
+}
+
+.sb.fp-square {
+	background-position: 0 77.82101167315174%;
+}
+
+.sc.fp-square {
+	background-position: 0 78.21011673151752%;
+}
+
+.sd.fp-square {
+	background-position: 0 78.59922178988327%;
+}
+
+.se.fp-square {
+	background-position: 0 78.98832684824903%;
+}
+
+.sg.fp-square {
+	background-position: 0 79.37743190661479%;
+}
+
+.sh.fp-square {
+	background-position: 0 79.76653696498055%;
+}
+
+.si.fp-square {
+	background-position: 0 80.1556420233463%;
+}
+
+.sj.fp-square {
+	background-position: 0 80.54474708171206%;
+}
+
+.sk.fp-square {
+	background-position: 0 80.93385214007782%;
+}
+
+.sl.fp-square {
+	background-position: 0 81.32295719844358%;
+}
+
+.sm.fp-square {
+	background-position: 0 81.71206225680933%;
+}
+
+.sn.fp-square {
+	background-position: 0 82.1011673151751%;
+}
+
+.so.fp-square {
+	background-position: 0 82.49027237354086%;
+}
+
+.sr.fp-square {
+	background-position: 0 82.87937743190662%;
+}
+
+.ss.fp-square {
+	background-position: 0 83.26848249027238%;
+}
+
+.st.fp-square {
+	background-position: 0 83.65758754863813%;
+}
+
+.sv.fp-square {
+	background-position: 0 84.04669260700389%;
+}
+
+.sx.fp-square {
+	background-position: 0 84.43579766536965%;
+}
+
+.sy.fp-square {
+	background-position: 0 84.8249027237354%;
+}
+
+.sz.fp-square {
+	background-position: 0 85.21400778210116%;
+}
+
+.ta.fp-square {
+	background-position: 0 85.60311284046692%;
+}
+
+.tc.fp-square {
+	background-position: 0 85.99221789883268%;
+}
+
+.td.fp-square {
+	background-position: 0 86.38132295719845%;
+}
+
+.tf.fp-square {
+	background-position: 0 86.7704280155642%;
+}
+
+.tg.fp-square {
+	background-position: 0 87.15953307392996%;
+}
+
+.th.fp-square {
+	background-position: 0 87.54863813229572%;
+}
+
+.tj.fp-square {
+	background-position: 0 87.93774319066148%;
+}
+
+.tk.fp-square {
+	background-position: 0 88.32684824902724%;
+}
+
+.tl.fp-square {
+	background-position: 0 88.715953307393%;
+}
+
+.tm.fp-square {
+	background-position: 0 89.10505836575875%;
+}
+
+.tn.fp-square {
+	background-position: 0 89.49416342412451%;
+}
+
+.to.fp-square {
+	background-position: 0 89.88326848249027%;
+}
+
+.tr.fp-square {
+	background-position: 0 90.27237354085604%;
+}
+
+.tt.fp-square {
+	background-position: 0 90.6614785992218%;
+}
+
+.tv.fp-square {
+	background-position: 0 91.05058365758755%;
+}
+
+.tw.fp-square {
+	background-position: 0 91.43968871595331%;
+}
+
+.tz.fp-square {
+	background-position: 0 91.82879377431907%;
+}
+
+.ua.fp-square {
+	background-position: 0 92.21789883268482%;
+}
+
+.ug.fp-square {
+	background-position: 0 92.60700389105058%;
+}
+
+.um.fp-square {
+	background-position: 0 92.99610894941634%;
+}
+
+.us.fp-square {
+	background-position: 0 93.3852140077821%;
+}
+
+.uy.fp-square {
+	background-position: 0 93.77431906614785%;
+}
+
+.uz.fp-square {
+	background-position: 0 94.16342412451363%;
+}
+
+.va.fp-square {
+	background-position: 0 94.55252918287938%;
+}
+
+.vc.fp-square {
+	background-position: 0 94.94163424124514%;
+}
+
+.ve.fp-square {
+	background-position: 0 95.3307392996109%;
+}
+
+.vg.fp-square {
+	background-position: 0 95.71984435797665%;
+}
+
+.vi.fp-square {
+	background-position: 0 96.10894941634241%;
+}
+
+.vn.fp-square {
+	background-position: 0 96.49805447470817%;
+}
+
+.vu.fp-square {
+	background-position: 0 96.88715953307393%;
+}
+
+.wf.fp-square {
+	background-position: 0 97.27626459143968%;
+}
+
+.ws.fp-square {
+	background-position: 0 97.66536964980544%;
+}
+
+.xk.fp-square {
+	background-position: 0 98.05447470817121%;
+}
+
+.ye.fp-square {
+	background-position: 0 98.44357976653697%;
+}
+
+.yt.fp-square {
+	background-position: 0 98.83268482490273%;
+}
+
+.za.fp-square {
+	background-position: 0 99.22178988326849%;
+}
+
+.zm.fp-square {
+	background-position: 0 99.61089494163424%;
+}
+
+.zw.fp-square {
+	background-position: 0 100%;
+}
+

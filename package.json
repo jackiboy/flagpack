@@ -7,7 +7,9 @@
   "license": "MIT",
   "homepage": "https://flag.pk/world",
   "scripts": {
-    "compile:sass": "node builder.js"
+    "compile:sprite": "node builder.js sprite",
+    "compile:sass": "node builder.js sass",
+    "compile": "node builder.js sass sprite"
   },
   "repository": {
     "type": "git",
@@ -28,6 +30,7 @@
     "small"
   ],
   "devDependencies": {
+    "@fullstax/svg-sprite": "^2.0.0",
     "node-sass": "^4.14.0"
   }
 }
