@@ -1,9 +1,11 @@
+@use "sass:math";
+
 @mixin fp-size($size, $type: '4x3') {
   line-height: $size;
   @if $type == '1x1' {
     width: $size;
   } @else {
-    width: (4 / 3) * $size;
+    width: math.div(4, 3) * $size;
   }
 }
 
