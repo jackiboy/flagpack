@@ -1,3 +1,5 @@
+@use "sass:math";
+
 @import "_variables";
 @import "_mixins";
 
@@ -16,7 +18,7 @@
   // rounded
   @if $fp-enable-rounded == true {
     &.#{$fp-prefix}-rounded {
-      @include fp-rounded($fp-size / 6);
+      @include fp-rounded(math.div($fp-size, 6));
     }
   }
   // medium size
@@ -35,7 +37,7 @@
       // rounded medium
       @if $fp-enable-rounded == true {
         &.#{$fp-prefix}-rounded {
-          @include fp-rounded($fp-size / 4);
+          @include fp-rounded(math.div($fp-size, 4));
         }
       }
     }
@@ -56,7 +58,7 @@
       // rounded large
       @if $fp-enable-rounded == true {
         &.#{$fp-prefix}-rounded {
-          @include fp-rounded($fp-size / 4);
+          @include fp-rounded(math.div($fp-size, 4));
         }
       }
     }
