@@ -1,4 +1,4 @@
-const sass = require('node-sass');
+const sass = require('sass');
 const path = require('path');
 const fs = require('fs');
 const pathToFlagStyles = path.join(__dirname, '../src/')
